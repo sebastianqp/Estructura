@@ -15,7 +15,6 @@ public class SumaLista {
             int numero = scanner.nextInt();
             numeros.add(numero);
         }
-
         int suma = 0;
         for (int numero : numeros) {
             suma += numero;
